@@ -28,4 +28,4 @@ $elementor_gen = function($args, $assoc_args) {
 
 };
 
-WP_CLI::add_command( 'codegen', $elementor_gen );
+WP_CLI::add_command( 'codegen elementor', $elementor_gen );
